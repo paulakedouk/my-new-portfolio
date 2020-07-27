@@ -1,0 +1,674 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* slightly enhanced, universal clearfix hack */
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+    }
+.clearfix { display: inline-block; }
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+    background-color: black;
+    font-size: 16px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    max-width: 1920px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    color:#fff;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+/* Header */
+
+.header {
+    background-image: url('./img/pc.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-x: center;
+    width: 100vw;
+    height: 100vh;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.header h1 {
+    min-width: 900px;
+    margin-left: auto;
+    margin-right: auto; 
+    padding: 0 3rem;
+}
+
+
+h2 {
+    font-family: "DM Serif Text", Arial, sans-serif;
+    font-size: 2rem;
+}
+
+h3 {
+    font-family: "DM Serif Text", Arial, sans-serif;
+    font-size: 1.5rem;
+}
+
+a, p, h4, li, button, a, span, .footer, .submitbutton, form input, form textarea  {
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+}
+
+/* Main */
+
+
+.main, .footer section {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.main > section {
+    margin-bottom: 10rem;
+}
+
+.main > section:first-of-type {
+    margin-top: 10rem;
+}
+
+/* About */
+
+.about {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+.about-img {
+    background-image: url(./img/me.jpg);
+    background-size: cover;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100%;
+    margin-right: 5rem;
+}
+
+.about-text {
+    width: 70%;
+}
+
+.about-btn {
+    margin-top: 3rem;
+}
+
+.about-btn button {
+    margin-right: 2rem;
+}
+
+.about-right p {
+    margin-top: 1rem;
+    font-weight: 100;
+}
+
+button{
+    border: .1rem solid white;
+    border-radius: 3rem;
+    color: white;
+    font-weight: 500;
+    padding: 0.7rem 3rem;
+    cursor: pointer;
+    background-color: Transparent;
+    outline: none;
+}
+
+.skills {
+    display: flex;
+}
+
+.tools li {
+    list-style: none;
+    font-weight: 100;
+}
+
+.design, .fullstack {
+    width: 50%;
+}
+
+.design {
+    margin-right: 10rem;
+}
+
+
+.design p, .design h4, .design ul, .fullstack p, .fullstack h4, .fullstack ul {
+    padding-top: 2rem;
+    font-weight: 100;
+}
+
+.tools li:first-child {
+    font-weight: 500;
+}
+
+/* Projects */
+
+.projects section:not(:first-child),
+#projects-hidden section {
+    margin-top: 5rem;
+}
+.projects section,
+#projects-hidden section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+
+.projects section p {
+    margin-bottom: 1rem;
+    font-weight: 100;
+}
+
+.project-left {
+    margin: 0;
+    padding: 0;
+}
+
+#projects-hidden .project-left {
+    justify-content: flex-end;
+}
+
+.vl {
+    border-left: 1px solid white;
+    height: 15rem;
+    margin: 0 auto;
+    width: 0;
+}
+
+.center {
+    text-align: center;
+}
+
+.projects p:first-of-type,
+#projects-hidden p:first-of-type{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-weight: 100;
+}
+
+.left-text {
+    text-align: right;
+    min-width: 28rem;
+}
+
+.projects img,
+#projects-hidden img {
+    width: 90%;
+}
+
+
+.project-left img {
+    transform: translateX(-5rem);
+}
+
+/* Project resize */
+
+.jobyte img {
+    transform: translateX(8rem);
+}
+
+.jobyte {
+    margin-bottom: 7rem;
+}
+
+.react-memory img {
+    width: 100%;
+    padding-left: 5rem;
+}
+
+.capstone img {
+    transform: translateX(3rem);
+}
+
+.pokemon img {
+    padding-left: 8rem;
+}
+
+.arcade-game img {
+    width: 50% !important;
+    transform: translateX(3rem);
+}
+
+.my-reads img {
+    transform: translateX(14rem) !important;
+}
+
+.project-left .right-text {
+    text-align: left;
+    min-width: 30rem;
+}
+
+.project-left {
+    text-align: left;
+    min-width: 28rem;
+    transform: translateX(-22.5rem);
+}
+
+span a {
+    color: white;
+}
+
+#collapse-projects-btn {
+    text-align: center;
+    margin-top: 7rem;
+}
+
+.active, #collapse-projects-btn button:hover {
+    background-color: #ccc;
+    color: black
+}
+
+#projects-hidden {
+    display: none;
+}
+
+.visible {
+    display: initial !important;
+}
+
+/* Education */
+
+.edu-wrap {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-gap: 1rem;
+    margin-top: 5rem;
+    line-height: 1.6rem;
+}
+
+/* Testimonial */
+
+.testimonial-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    margin-top: 5rem;
+}
+
+.testimonial {
+    border: 1px solid rgba(255, 255, 255, .2);
+    border-radius: 0.3rem;
+    padding: 3rem;
+}
+
+.testimonial img {
+    border-radius: 10rem;
+    float: left;
+    margin-right: 2rem;
+    width: 4rem;
+}
+
+.testimonial p {
+    font-weight: 100;
+}
+
+.testimonial-info h4 {
+    padding-top: .5rem;
+    font-size: .9rem;
+}
+
+.testimonial-info p {
+    font-size: .9rem;
+}
+
+.testimonial-quote {
+    margin-top: 3rem;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: white;
+    height: 15rem;
+    color: black;
+    padding-top: 5rem;
+}
+
+.footer p {
+    display: inline-block;
+}
+
+#social-network {
+    color: black;
+    float: right;
+    text-align: right;
+    margin-right: 10px;
+    width: 11rem;
+}
+
+#social-network ul {
+    margin: 0;
+    display: flex;
+    justify-content: space-between; 
+}
+
+#social li {
+    list-style: none;
+}
+
+#social li, .footer p {
+    display: inline-block;
+}
+
+#social img {
+    width: 2rem;
+}
+
+/* Contact */
+
+.contact-wrap {
+    background-color: white;
+    border-radius: 0.5rem;
+    height: 32rem;
+    display: flex;
+    align-items: center;
+    padding: 5rem;
+}
+
+.contact-img {
+    resize: vertical;
+    width: 20rem;
+    height: 20rem;
+    background-size: cover;
+    background-image: url(./img/contact-img.svg);
+}
+
+form {
+    width: 50%;
+    max-width: 500px;
+    padding: 2rem;
+    margin-left: 4rem;
+}
+
+form input, form textarea {
+    border: none;
+    border-bottom: 1px solid;
+    /* width: 300px; */
+    line-height: 2rem;
+}
+
+#email, #message, #name {
+    margin-bottom: 15px;
+    width: 100%;
+    background: transparent;
+    padding: 0.7rem;
+    outline: none;
+}
+
+.submit-button {
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-weight: 500;
+    width: 100%;
+    height: 3rem;
+    margin: 0 auto;
+    background-color: black;
+    margin-top: 2rem;
+}
+
+/* Media queries */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    .header h1 {
+        font-size: 2rem !important;
+    }
+
+    .footer section {
+        text-align: center;
+
+    }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+    .header h1 {
+        width: auto;
+        font-size: 3rem;
+    }
+
+    .about-text, .skills, .right-text, .left-text, .education, .testimonials, #my-form{
+        margin-left: 4rem;
+        margin-right: 4rem;
+        text-align: left !important;
+    }
+
+    .right-text:first-of-type {
+        padding-right: 5rem;
+    }
+    
+    .about {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .about-text {
+        text-align: left;
+        width: 100%
+    }
+
+    .about-img {
+        background-position-x: center;
+        width: 100%;
+        height: 25rem;
+        margin: 0 4rem;
+        border-radius: 0;
+        margin-bottom: 3rem;
+    }
+
+    .about-btn {
+        text-align: center;
+    }
+
+    .about-btn button {
+        text-align: center;
+        margin-bottom: 1.6rem;
+        width: 70%;
+        margin-right: 0;
+        max-width: 20rem;
+    }
+
+    .main > section {
+        margin-bottom: 5rem;
+    }
+
+    .main > section:first-of-type{
+        margin-top: 5rem;
+    }
+
+    .skills {
+        display: inline-block;
+    }
+
+    .design, .fullstack {
+        width: 70%;
+    }
+
+    .design {
+        margin-bottom: 5rem
+    }
+
+    .project-left {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+   
+    .project-left img, .project-right img {
+        margin-bottom: 4rem;
+        transform: none;
+        /* width: 100% !important;s */
+    }
+
+    .projects section, #projects-hidden section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+
+    .pokemon img, .react-memory img {
+        padding-left: 0;
+    }
+
+    .projects img {
+        transform: none;
+    }
+
+    .left-text {
+        order: 2
+    }
+
+    .my-reads .left-img {
+        transform: translateX(2rem) !important;
+    }
+    
+    .project-left .eight-gif {
+        transform: translateX(-7rem) !important;
+        width: 6rem !important;
+        margin-top: 3rem;
+    }
+
+    .projects img, #projects-hidden img {
+        max-width: 60%;
+    }
+
+    #projects-hidden .project-left {
+        justify-content: center;
+    }
+
+    .edu-wrap {
+        grid-column-gap: 2rem;
+    }
+
+    .testimonial-wrap {
+        display: inline-block;
+    }
+
+    .testimonial {
+        margin-bottom: 2rem
+    }
+
+    .contact-wrap {
+        display: inline-block;
+        height: 100%;
+        padding: 3rem;
+    }
+    
+    .contact-img {
+        margin: 0 auto;
+        width: 15rem;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .submit-button {
+        margin-top: 5rem;
+    }
+
+    form {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        max-width: 100%
+    }
+
+    .footer section {
+        justify-content: space-between;
+        margin: 0 4rem;
+        display: flex;
+    }
+
+    .footer p {
+        font-size: .8rem;
+    }
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 769px) { 
+    .about-btn button:first-of-type {
+        margin-right: 2rem;
+    }
+
+    .about-btn button {
+        margin-right: 0;
+    }
+   
+    .main {
+        margin: 6rem;
+        margin: 0 auto;
+    }
+
+    .about {
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+
+    .my-reads .left-img {
+        transform: translateX(8rem) !important
+    }
+
+    .my-reads .eight-gif {
+        transform: translateX(-9rem) !important;
+        width: 12rem !important;
+        margin-top: 3rem;
+    }
+
+ }

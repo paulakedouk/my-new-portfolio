@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic|Josefin+Slab:400,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>
+                Hello, I'm Ana<br>
+                Designer &<br>
+                Front End Engineer
+            </h1>
+        </div>
+        
+    
+        <div class="main">
+            <section class="fade-in about">
+                <div class="about-img"></div>
+                <div class="about-text">
+                    <div class="about-right">
+                        <h2 class="title">Ana Paula Kedouk</h2>
+                        <p>
+                            Graduated in Design and driven by challenges, 
+                            I love to identify and solve problems. That's why I became a developer. 
+                            In the past, I had the opportunity to create a startup and led a small
+                            team of designers and developers, winning 3 national startup contests
+                            and building a community of 1500+ customers. 
+                        </p>
+                        <div class="about-btn">
+                            <button><a target="_blank" href="https://www.dropbox.com/s/84aqrqq6xgwmzhe/Resume%20Ana%20Paula%20Borba.pdf?dl=0">Download resume</a></button>
+                            <button onclick="hireMeScroll()" id="hire-me">Hire me</button>   
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <section>
+                <div class="skills">
+                    <div class="design fade-in">
+                        <img src="./assets/img/design-icon.svg" alt="design icon">
+                        <h2>Design</h2>
+                        <p>Creating web applications for desktop and mobile, focused on speed, responsiveness and performance.</p>
+                
+                        <h4>UX, UI, Web, Mobile, Apps, Logos</h4>
+                        
+                        <ul class="tools">
+                            <li>Tools</li>
+                            <li>Illustrator</li>
+                            <li>Photoshop</li>
+                            <li>Adobe XD</li>
+                            <li>Design Thinking</li>
+                        </ul>
+                    </div>
+
+                    <div class="fullstack fade-in">
+                        <img src="./assets/img/fullstack-icon.svg" alt="design icon">
+                        <h2>Full-Stack</h2>
+                        <p>Building empathy, creating functional and beautiful experiences targeting user needs and business goals.</p>
+
+                        <h4>HTML, CSS, JavaScript, Python,  Databases</h4>
+                        
+                        <ul class="tools">
+                            <li>Tools</li>
+                            <li>React</li>
+                            <li>Redux</li>
+                            <li>Webpack</li>
+                            <li>Responsive Design</li>
+                            <li>Web Perfomance Optimization</li>
+                            <li>Browser Rendering Optimization</li>
+                            <li>Ajax</li>
+                            <li>Server Side Development (MySQL, MongoDB)</li>
+                            <li>Deployment (Heroku, FTP)</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="fade-in">
+                    <div class="projects clearfix">
+                        <section class="project-left fade-in">
+                            <img class="left-img" src="./assets/img/adobexdis.png" alt="adobexdis img">
+                            <div class="right-text">
+                                <h2>Front-End Developer, Adobe XDIs</h2>
+                                <p>Noneoneoneoneo</p>
+                                
+                                <h4>Technologies used:</h4>
+                                <p>Design, HTML & CSS and responsiveness</p>
+                                <span><a href="http://adobe.ly/xdis">Link</a></span>
+                            </div>
+                        </section>
+                        
+                        <section class="project-right capstone fade-in">
+                            <div class="left-text">
+                                <h2>Capstone - Full-Stack Project</h2>
+                                <p>Builded an API from start to finish and host it. Used SQLAlchemy, Flask, Authentication and access, Auth0, RBAC, Testing Flask Application, Deploying)</p>
+                                
+                                <h4>Technologies used:</h4>
+                                <p>Design, HTML & CSS and responsiveness</p>
+                                <span><a href="https://github.com/paulakedouk/fsnd-capstone">Link</a></span>
+                            </div>  
+                            <img class="right-img" src="./assets/img/capstone.png" alt="capstone img">
+                        </section>
+
+                        <section class="project-left fade-in">
+                            <img class="left-img" src="./assets/img/tonails.png" alt="survey img">
+                            <div class="right-text">
+                                <h2>CEO & Founder, Tonails</h2>
+                                <p>Created with Vanilla JavaScript, all responsive, inline CSS (for faster loading),
+                                    Greensock, Node.js, did all the integration with the server with Heroku, resulting in a 99/100 Google PageSpeed Score, as a good case of performance optimization and browser rendering optimization.</p>
+                                <h4>Technologies used:</h4>
+                                <p>Design, HTML & CSS and responsiveness</p>
+                            </div>
+                        </section>
+                        
+                        <section class="project-right jobyte fade-in">
+                            <div class="left-text">
+                                <h2>Full-Stack Developer, JOByte</h2>
+                                <p>This is a full-stack JavaScript MongoDB/Express/React/Node.js (MERN) app and the architecture follows a model-view-controller pattern.</p>
+                                <h4>Technologies used:</h4>
+                                <p>Design, HTML & CSS and responsiveness</p>
+                                <span><a href="https://jobyte.herokuapp.com/">Link</a></span>
+                            </div>  
+                            <img class="right-img" src="./assets/img/jobyte.png" alt="Jobyte img">
+                        </section>
+
+                        <section class="project-left fade-in">
+                            <img class="left-img" src="./assets/img/wkid.png" alt="wkid img">
+                            <div class="right-text">
+                                <h2>UX / UI Developer, WKID</h2>
+                                <p>Worked designing interfaces, and planning the user experience for a desktop application. Also, I was able to learn Swift and implementing a couple of pieces in the app.</p>
+                                
+                                <h4>Technologies used:</h4>
+                                <p>Design, HTML & CSS and responsiveness</p>
+                            </div>
+                        </section>
+
+
+                        <div id="collapse-projects-btn">
+                            <button onclick="hideAndShow()">Show more projects</button>
+                        </div>
+
+                        <div id="projects-hidden">
+    
+                            <section class="project-right pokemon">
+                                <div class="left-text">
+                                    <h2>Front-End Dev, Pokemon Game</h2>
+                                    <p>A classic RPG game. When the game starts, the player will choose a character by clicking on the pokemon's picture. Built with HTML, CSS, JavaScript and jQuery.</p>
+                                    <h4>Technologies used:</h4>
+                                    <p>Design, HTML & CSS and responsiveness</p>
+                                    <span><a href="https://github.com/paulakedouk/pokemon-game">Link</a></span>
+                                </div>  
+                                <img class="right-img" src="./assets/img/pokemon.png" alt="Pokemon img">
+                            </section>
+    
+                            <section class="project-left fade-in">
+                                <img class="left-img" src="./assets/img/survey.png" alt="survey img">
+                                <div class="right-text">
+                                    <h2>Full-Stack Developer, Friends Survey</h2>
+                                    <p>This full-stack site will be match with friends once you complete the 10 question survey. It will take in results from your users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match.</p>
+                                    <h4>Technologies used:</h4>
+                                    <p>Design, HTML & CSS and responsiveness</p>
+                                    <span><a href="https://github.com/paulakedouk/friend-finder">Link</a></span>
+                                </div>
+                            </section>
+                            
+                            <section class="project-right react-memory fade-in">
+                                <div class="left-text">
+                                    <h2>React Memory Game</h2>
+                                    <p>Game memory built with React and break up into components, manage component state, and respond to user events.</p>
+                                    <h4>Technologies used:</h4>
+                                    <p>Design, HTML & CSS and responsiveness</p>
+                                    <span><a href="https://github.com/paulakedouk/react-memory-game">Link</a></span>
+                                </div>  
+                                <img class="right-img" src="./assets/img/react-memory.png" alt="Pokemon img">
+                            </section>
+    
+                            <section class="project-left my-reads fade-in">
+                                <img class="left-img" src="./assets/img/my-reads.png" alt="survey img">
+                                <img class="left-img eight-gif" src="./assets/img/my-reads.gif" alt="survey img">
+                                <div class="right-text">
+                                    <h2>My reads, React</h2>
+                                    <p>The project emphasizes using React to build the application and provides an API server and client library that you will use to persist information as you interact with the application.</p>
+                                    <h4>Technologies used:</h4>
+                                    <p>Design, HTML & CSS and responsiveness</p>
+                                    <span><a href="https://github.com/paulakedouk/my-reads">Link</a></span>
+                                </div>
+                            </section>
+    
+                            <section class="project-right arcade-game fade-in">
+                                <div class="left-text">
+                                    <h2>Arcade Game</h2>
+                                    <p>Games have a lot of objects and those objects do a lot of different things. Used object-oriented programming.</p>
+                                    <h4>Technologies used:</h4>
+                                    <p>Design, HTML & CSS and responsiveness</p>
+                                    <span><a href=" https://github.com/paulakedouk/arcade-game">Link</a></span>
+                                </div>  
+                                <img class="right-img" src="./assets/img/arcade.png" alt="Pokemon img">
+                            </section>
+
+                            <section class="project-left">
+                                <img class="left-img" src="./assets/img/scrapper.png" alt="scrapper img">
+                                <div class="right-text">
+                                    <h2>Full-Stack Developer (MongoDB), Scrapper</h2>
+                                    <p>A web app that lets users view and leave comments on the latest news. Used Mongoose and Cheerio muscles to scrape news from another site.</p>
+                                    <h4>Technologies used:</h4>
+                                    <p>Design, HTML & CSS and responsiveness</p>
+                                    <span><a href="https://pure-sierra-93143.herokuapp.com/">Link</a></span>
+                                </div>
+                            </section>
+                        </div>
+                    </div>  
+                </div>
+             </section>
+
+             <section>
+                <div class="fade-in">
+                    <div class="education">
+                        <h2>Education</h2>
+                        <div class="edu-wrap">
+                            <p>2020</p>
+                            <h3>Full Stack Nanodegree, Computer Science</h3>
+                            <p>Udacity</p>
+                            <p>Design and build a database for a software application create and deploy a database-backed web API (Application Programming Interface) Secure and manage user authentication and access control for an application backend Deploy a Flask-based web application to the cloud using Docker and Kubernetes.<br></p>
+                        </div>
+                        <div class="edu-wrap">
+                            <p>2018</p>
+                            <h3>Full Stack Coding Boot Camp, Computer Science</h3>
+                            <p>UC Berkeley</p>
+                            <p>Computer Science applied to JavaScript<br>
+                                Browser Based Technologies (HTML, CSS, JavaScript, jQuery)s<br>
+                                Databases (MySQL, MongoDB)<br>
+                                Deployment<br>
+                                Python (Django)<br>
+                                Quality Assurance<br>
+                                Server Side Development (Node.js, Express, MERN Stack)<br>
+                                Internet Marketing (Semantic HTML)<br></p>
+                        </div>
+                        <div class="edu-wrap">
+                            <p>2017</p>
+                            <h3>React Nanodegree, Computer Science</h3>
+                            <p>Udacity</p>
+                            <p>React Fundamentals<br>
+                                React & Redux<br>
+                                React Native</p>
+                        </div>
+                        <div class="edu-wrap">
+                            <p>2016</p>
+                            <h3>Front-End Nanodegree, Computer Science</h3>
+                            <p>Udacity</p>
+                            <p>Responsive Web Design Fundamentals<br>
+                                HTML5 Canvas<br>
+                                Responsive Images<br>
+                                HTML5 Canvas<br>
+                                CSS<br>
+                                jQuery<br>
+                                Browser Rendering Optimization<br>
+                                Website Performance Optimization<br>
+                                AJAX<br>
+                                Object-Oriented JavaScript<br>
+                                JavaScript Design Patterns<br>
+                                JavaScript Testing</p>
+                        </div>
+                        <div class="edu-wrap">
+                            <p>2013</p>
+                            <h3>Training, Adobe Tools</h3>
+                            <p>Adobe Training Program</p>
+                            <p>Photoshop CC<br>
+                                Photoshop CC Advanced<br>
+                                Illustrator CC<br>
+                                Illustrator CC Advanced<br>
+                                InDesign CC<br>
+                                Premiere Pro CC</p>
+                        </div>
+                        <div class="edu-wrap">
+                            <p>2008 - 2012</p>
+                            <h3>Bachelor's Degree, Design</h3>
+                            <p>Faculdade Maurício de Nassau</p>
+                            <p>Design fundamentals<br>
+                                Theory of perception<br>
+                                Design Thinking<br>
+                                Creative confidence<br>
+                                Interface Design<br>
+                                Two-dimensional representation<br>
+                                Illustration<br>
+                                Project management<br>
+                                Production and graphic analysis<br>
+                                Typography<br>
+                                Semiotics applied to Design<br>
+                                Animation of images<br>
+                                Theory and practice of color<br>
+                                Production and editing of Images<br>
+                                Signage and surface Design<br>
+                                Materials and graphic production<br>
+                                User psychology applied to Design<br>
+                                Marketing and strategic planning applied to Design</p>
+                        </div>
+                        <div class="edu-wrap">
+                            <p>2006</p>
+                            <h3>Certificate Program, Web Design</h3>
+                            <p>Microlins</p>
+                            <p>HTML & CSS<br>
+                                Dreamweaver<br>
+                                Photoshop<br>
+                                Flash<br>
+                                Corel Draw</p>
+                        </div>
+                    </div>
+                </div>
+             </section>
+
+             
+
+            <section>
+                <div class="fade-in">
+                    <div class="testimonials">
+                        <h2>Testimonials</h2>
+                        <div class="testimonial-wrap">
+                            <div class="testimonial">
+                                <div class="testimonial-info">
+                                    <img src="./assets/img/jc.jpg" alt="JC Nolan">
+                                    <h4>JC Nolan</h4>
+                                    <p>Senior Developer, Apple</p>
+                                </div>
+                                <p class="testimonial-quote">“Ana is a great talent and a pleasure to work with. Extremely organized, talented and multi-faceted she is truly motivated by the opportunity to contribute and make a real difference with whatever task she is faced with be it UI / UX, Coding or design. She comes highly recommended and I hope to have her on my team again soon.</p>
+                            </div>
+
+                            <div class="testimonial">
+                                <div class="testimonial-info">
+                                    <img src="./assets/img/jf.jpg" alt="Jotaefe">
+                                    <h4>João Felipe</h4>
+                                    <p>Chief Technology Officer, Aondê</p>
+                                </div>
+                                <p class="testimonial-quote">"I worked and I founded a company with Ana Kedouk and I can say that is a person who has focus and discipline to complete tasks. She has knowledge on the tools used, always focusing on quality. A professional with great management and decision skills, having a great entrepreneurial vision."</p>
+                            </div>
+
+                            <div class="testimonial">
+                                <div class="testimonial-info">
+                                    <img src="./assets/img/demian.jpg" alt="Demian">
+                                    <h4>Demian Borba</h4>
+                                    <p>Product Manager, Adobe</p>
+                                </div>
+                                <p class="testimonial-quote">"Ana is driven by challenges! Focused on User Experience (UX), she's a talented front-end developer and great team member. I had the opportunity to see her managing a team of developers during the time she worked on her startup, before moving to the US. She can make any website work better with rendering and performance techniques, as well as put together build systems for CSS and Javascript projects. Ana is also a passionate designer, proficient with tools such as Photoshop, Illustrator and InDesign."</p>
+                            </div>
+
+                            <div class="testimonial">
+                                <div class="testimonial-info">
+                                    <img src="./assets/img/felipematos.jpg" alt="Felipe">
+                                    <h4>Felipe Matos</h4>
+                                    <p>Founder 10k Digital</p>
+                                </div>
+                                <p class="testimonial-quote">"Ana is amazing! I have to confess that when I first met her, I doubted on her capacity, prejudging her startup as a "pretty little girl small business". How wrong I was! Ana is a savvy learner, she goes for whatever she needs to know in order to get where she wants. I was lucky to watch that first startup-contest winner to grow into an entrepreneur. She came up with a team, a business structure and made her way into Startup Farm acceleration winner of her batch and, later, selected to be financed by Startup Brasil program among thousands of startups. As a proud mentor, I recommend Ana to any position she pursues in the tech industry."</p>
+                            </div>
+
+                            <div class="testimonial">
+                                <div class="testimonial-info">
+                                    <img src="./assets/img/alan.jpg" alt="Alan">
+                                    <h4>Alan Leite</h4>
+                                    <p>CEO, Startup Farm</p>
+                                </div>
+                                <p class="testimonial-quote">"Paula is a result oriented person. Leading her startup, she faced some difficulties and achieved good results in our program. And won it. A very young entrepreneur that was already recognized by her team as a leader."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="my-form">
+                <div class="contact-wrap">
+                    <div class="contact-img"></div>
+
+                    <form  method="post" action="/form">
+                        <input id="name" type="text" name="name" placeholder="Name">
+                        <input id="email" type="email" name="email" placeholder="Email">
+                        <textarea id="message" name="message" placeholder="Message"></textarea>
+                        <input class="submit-button" type="submit" value="Send" onsubmit="return validateForm()" style="cursor: pointer;">
+                        <p id="submit-message" class="submit" onclick="submitButton">Message sent!</p>
+                    </form>
+                </div>
+            </section>
+
+        </div>
+
+        
+        <div class="footer">
+            <section>
+                <p>© Paula Kedouk 2020 ALL RIGHTS RESERVED.</p>
+                <div id="social-network">
+                    <ul id="social">
+                        <li>
+                            <a href="http://www.facebook.com/paulakedouk">
+                                <img src="./assets/img/facebook.svg" alt="Facebook">
+                            </a>
+                        </li>
+                        <li id="twitter">
+                            <a href="http://www.twitter.com/paulakedouk">
+                                <img src="./assets/img//twitter.svg" alt="Twitter">
+                            </a>
+                        </li>
+                        <li id="github">
+                            <a href="http://www.github.com/paulakedouk">
+                                <img src="./assets/img/github.svg" alt="Github">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </div>
+  
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+<script src="./assets/app.js"></script>
+</body>
+</html>
