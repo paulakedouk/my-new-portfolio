@@ -257,7 +257,7 @@ button{
 /* Project resize */
 
 .jobyte img {
-    transform: translateX(8rem);
+    /* transform: translateX(8rem); */
 }
 
 .jobyte {
@@ -489,8 +489,12 @@ form input, form textarea {
         text-align: left !important;
     }
 
-    .right-text:first-of-type {
-        padding-right: 11rem;
+    #collapse-projects-btn {
+        margin-top: 3rem;
+    }
+
+    .right-text:first-of-type, .left-text:first-of-type {
+        padding-right: 13rem;
     }
     
     .about {
@@ -545,24 +549,20 @@ form input, form textarea {
         margin-bottom: 1rem;
     }
 
-    .project-left {
-        transform: matrix(1, 0, 0, 1, 0, 0);
-    }
-    
-   
-    .project-left img, .project-right img {
-        margin-bottom: 4rem;
-        transform: none;
-        /* width: 100% !important;s */
+    .project-left img {
+        margin: 0 14rem 3rem 0;
     }
 
-    .project-left img, .jobyte img {
-        transform: translateX(-6rem) !important;
-        width: 50%;
+    .project-right img {
+
     }
 
-    .capstone img {
-        transform: translateX(-5rem) !important;
+    .right-img {
+        margin-right: 26rem;
+    }
+
+    .jobyte img {
+        margin: 0 25rem 3rem 0;
     }
 
     
@@ -573,31 +573,9 @@ form input, form textarea {
         
     }
 
-    .pokemon img, .react-memory img {
-        padding-left: 0;
-    }
-
-    .projects img {
-        transform: none;
-    }
-
     .left-text {
         order: 2;
         padding-right: 12rem;
-    }
-
-    .my-reads .left-img {
-        transform: translateX(2rem) !important;
-    }
-    
-    .project-left .eight-gif {
-        transform: translateX(-7rem) !important;
-        width: 6rem !important;
-        margin-top: 3rem;
-    }
-
-    .projects img, #projects-hidden img {
-        max-width: 60%;
     }
 
     #projects-hidden .project-left {
@@ -646,7 +624,8 @@ form input, form textarea {
     }
 
     .submit-button {
-        margin-top: 5rem;
+        margin-top: 3rem;
+        -webkit-appearance: none;
     }
 
     form {
@@ -665,6 +644,10 @@ form input, form textarea {
         margin-top: 1rem;
         width: 8rem;
         float: left
+    }
+
+    #social-network ul {
+        padding: 0
     }
 
     .footer p {
