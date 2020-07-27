@@ -292,9 +292,6 @@ button{
 }
 
 .project-left {
-    text-align: left;
-    min-width: 28rem;
-    transform: translateX(-22.5rem);
 }
 
 span a {
@@ -493,8 +490,8 @@ form input, form textarea {
         margin-top: 3rem;
     }
 
-    .right-text:first-of-type, .left-text:first-of-type {
-        padding-right: 13rem;
+    .right-text:first-of-type {
+        padding-right: 11rem;
     }
     
     .about {
@@ -550,7 +547,7 @@ form input, form textarea {
     }
 
     .project-left img {
-        margin: 0 14rem 3rem 0;
+        margin: 0 12rem 3rem 0;
     }
 
     .project-right img {
@@ -563,6 +560,8 @@ form input, form textarea {
 
     .jobyte img {
         margin: 0 25rem 3rem 0;
+        /* width: 50%; */
+
     }
 
     
@@ -677,12 +676,6 @@ form input, form textarea {
 
     .my-reads .left-img {
         transform: translateX(8rem) !important
-    }
-
-    .my-reads .eight-gif {
-        transform: translateX(-9rem) !important;
-        width: 12rem !important;
-        margin-top: 3rem;
     }
 
  }
