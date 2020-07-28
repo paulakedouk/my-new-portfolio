@@ -1,20 +1,20 @@
 // init controller
-var controller = new ScrollMagic.Controller();
+let controller = new ScrollMagic.Controller();
+let fadeElem = Array.prototype.slice.call(document.getElementsByClassName('fade-in'));
+let self = this;
 
-// loop through all elements
-$('.fade-in').each(function() {
+fadeElem.forEach(function(self) {
   // build a tween
-  var tween = TweenMax.from($(this), 0.5, {autoAlpha: 0, y: '+=70', ease:Linear.easeNone});
-
+  let tween = TweenMax.from(self, 0.5, {autoAlpha: 0, y: '+=70', ease:Linear.easeNone});
   // build a scene
-  var scene = new ScrollMagic.Scene({
-    triggerElement: this
+  let scene = new ScrollMagic.Scene({
+    triggerElement: self
   })
-  .setTween(tween) // trigger a TweenMax.to tween
-  .addTo(controller);
-  
+  .setTween(tween)
+  .addTo(controller)
 });
 
+  
 function hideAndShow() {
     var hideProjects = document.getElementById('projects-hidden');
     hideProjects.style.display = 'block';

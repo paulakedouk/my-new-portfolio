@@ -74,8 +74,7 @@ body {
 .header h1 {
     min-width: 900px;
     margin-left: auto;
-    margin-right: auto; 
-    padding: 0 3rem;
+    margin-right: auto;
 }
 
 
@@ -478,6 +477,7 @@ form input, form textarea {
     .header h1 {
         width: auto;
         font-size: 3rem;
+        margin: 0 2rem;
     }
 
     .about-text, .skills, .right-text, .left-text, #collapse-projects-btn, .education, .testimonials, #my-form{
@@ -667,11 +667,6 @@ form input, form textarea {
     .main {
         margin: 6rem;
         margin: 0 auto;
-    }
-
-    .about {
-        margin-left: 5rem;
-        margin-right: 5rem;
     }
 
     .my-reads .left-img {
