@@ -88,7 +88,7 @@ h3 {
     font-size: 1.5rem;
 }
 
-a, p, h4, li, button, a, span, .footer, .submitbutton, form input, form textarea  {
+a, p, h4, li, button, a, span, .footer, .submit-button, form input, form textarea  {
     font-family: "Poppins", Arial, sans-serif;
 }
 
@@ -255,10 +255,6 @@ button{
 
 /* Project resize */
 
-.jobyte img {
-    /* transform: translateX(8rem); */
-}
-
 .jobyte {
     margin-bottom: 7rem;
 }
@@ -288,9 +284,6 @@ button{
 .project-left .right-text {
     text-align: left;
     min-width: 30rem;
-}
-
-.project-left {
 }
 
 span a {
@@ -548,10 +541,6 @@ form input, form textarea {
 
     .project-left img {
         margin: 0 12rem 3rem 0;
-    }
-
-    .project-right img {
-
     }
 
     .right-img {
