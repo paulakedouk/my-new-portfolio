@@ -48,6 +48,7 @@ body {
     margin: 0;
     padding: 0;
     color:#fff;
+    font-family: "Neue Haas Unica", Arial, sans-serif;
 }
 
 .container {
@@ -66,30 +67,45 @@ body {
     background-position-x: center;
     width: 100vw;
     height: 100vh;
-    font-size: 2rem;
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 0 4rem;
+}
+
+
+.header-text div {
+    border: .3rem solid rgb(184, 99, 36);
+    padding: .8rem 0;
+    text-align: center;
+    width: 10rem;
+    text-transform: uppercase;
+    font-size: 2rem;
 }
 
 .header h1 {
     min-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.header p {
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin-left: 2rem;
+}
+
+.header span {
+    color:  rgb(184, 99, 36);
 }
 
 
 h2 {
-    font-family: "DM Serif Text", Arial, sans-serif;
     font-size: 2rem;
 }
 
 h3 {
-    font-family: "DM Serif Text", Arial, sans-serif;
     font-size: 1.5rem;
-}
-
-a, p, h4, li, button, a, span, .footer, .submit-button, form input, form textarea  {
-    font-family: "Poppins", Arial, sans-serif;
 }
 
 a {
@@ -455,9 +471,7 @@ form input, form textarea {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
-    .header h1 {
-        font-size: 2rem !important;
-    }
+   
 
     .footer section {
         text-align: center;
@@ -467,11 +481,7 @@ form input, form textarea {
 
 /* Medium devices (tablets, 768px and up) */
 @media (max-width: 768px) {
-    .header h1 {
-        width: auto;
-        font-size: 3rem;
-        margin: 0 2rem;
-    }
+    
 
     .about-text, .skills, .right-text, .left-text, #collapse-projects-btn, .education, .testimonials, #my-form{
         margin-left: 2rem;

@@ -35,6 +35,12 @@ function hireMeScroll() {
  
 }
 
+// var scrollDown = document.getElementById("scroll-down");
+// (scrollDown.style.cursor = "pointer"),
+//     (scrollDown.onclick = function () {
+//         TweenLite.to(window, 1, { scrollTo: ".main", ease: Power1.easeInOut });
+//     })
+
 
 // var mediaQueryMedium = window.matchMedia("(max-width: 768px)");
 // if(!mediaQueryMedium.matches) {
