@@ -7,7 +7,7 @@
     "express": "^4.17.1",
     "heroku": "^7.33.3",
     "sendgrid": "^4.7.1",
-    "webpack": "^2.2.1"
+    "webpack": "^5.75.0"
   },
   "devDependencies": {
     "body-parser": "^1.19.0",
